@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Turtle Rush – Official Site</title>
+  <meta name="description" content="Turtle Rush is a race‑to‑earn game on Base. Turtle NFTs, XP, and $TURTLE rewards. Join the rush!"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <!-- Tailwind (CDN) for rapid styling) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{ --brand:#16a34a; --brand2:#22d3ee; }
+    html,body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+    .badge{display:inline-block;padding:.25rem .6rem;border-radius:9999px;border:1px solid rgb(226 232 240);background:rgb(248 250 252);font-size:.75rem;font-weight:600}
+    .glass{backdrop-filter:saturate(1.2) blur(8px);}
+  </style>
+</head>
+<body class="bg-slate-900 text-slate-100">
+  <!-- NAV -->
+  <header class="sticky top-0 z-50 bg-slate-900/70 glass border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2 font-black tracking-tight">
+        <span class="text-emerald-400">🐢</span>
+        <span class="text-xl">TURTLE <span class="text-cyan-300">RUSH</span></span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#about" class="hover:text-cyan-300">About</a>
+        <a href="#gameplay" class="hover:text-cyan-300">Gameplay</a>
+        <a href="#token" class="hover:text-cyan-300">$TURTLE</a>
+        <a href="#roadmap" class="hover:text-cyan-300">Roadmap</a>
+        <a href="#faq" class="hover:text-cyan-300">FAQ</a>
+        <a href="#cta" class="bg-emerald-500 text-slate-900 font-bold px-3 py-2 rounded-xl shadow hover:bg-emerald-400">Join Waitlist</a>
+      </nav>
+      <button id="menuBtn" class="md:hidden inline-flex items-center justify-center w-10 h-10 rounded-xl border border-slate-700">☰</button>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t border-slate-800">
+      <div class="px-4 py-3 flex flex-col gap-3 text-sm">
+        <a href="#about" class="hover:text-cyan-300">About</a>
+        <a href="#gameplay" class="hover:text-cyan-300">Gameplay</a>
+        <a href="#token" class="hover:text-cyan-300">$TURTLE</a>
+        <a href="#roadmap" class="hover:text-cyan-300">Roadmap</a>
+        <a href="#faq" class="hover:text-cyan-300">FAQ</a>
+        <a href="#cta" class="bg-emerald-500 text-slate-900 font-bold px-3 py-2 rounded-xl shadow hover:bg-emerald-400">Join Waitlist</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(16,185,129,.15),transparent_40%),radial-gradient(circle_at_80%_10%,rgba(34,211,238,.12),transparent_35%)]"></div>
+    <div class="max-w-6xl mx-auto px-4 py-20 lg:py-28 relative">
+      <div class="flex flex-col items-center text-center gap-6">
+        <span class="badge">Built on Base • Community‑First</span>
+        <h1 class="text-4xl lg:text-6xl font-black leading-tight">Race, Level‑Up, and <span class="text-emerald-400">Win</span> with <span class="text-cyan-300">Turtle NFTs</span></h1>
+        <p class="text-slate-300 max-w-2xl">Turtle Rush is a race‑to‑earn game where Turtle NFTs compete for glory. Earn XP now, claim <span class="text-cyan-300 font-semibold">$TURTLE</span> rewards at launch. Fun first, economy second.</p>
+        <div class="flex flex-wrap gap-3">
+          <a href="#cta" class="bg-emerald-500 text-slate-900 font-bold px-5 py-3 rounded-2xl shadow hover:bg-emerald-400">Join Waitlist</a>
+          <a href="#token" class="border border-slate-700 px-5 py-3 rounded-2xl hover:border-cyan-400">Read Token Utility</a>
+          <span class="badge">Most sections: <span class="text-yellow-300">Coming Soon</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="max-w-6xl mx-auto px-4 py-16 grid lg:grid-cols-2 gap-10">
+    <div>
+      <h2 class="text-2xl font-extrabold mb-3">What is Turtle Rush?</h2>
+      <p class="text-slate-300">A fast, lightweight on‑chain racing game. Each Turtle is an NFT with visuals and attributes. Races mix stats and verifiable randomness. Build your squad, climb leaderboards, and get ready for <span class="font-semibold">$TURTLE</span> rewards.</p>
+      <ul class="mt-6 space-y-2 text-slate-300">
+        <li>• Network: <span class="text-cyan-300">Base</span></li>
+        <li>• Modes: Solo races, tournaments, special events</li>
+        <li>• Marketplace & Breeding: <span class="text-yellow-300">Coming Soon</span></li>
+      </ul>
+    </div>
+    <div class="rounded-2xl border border-slate-800 p-6 bg-slate-800/30">
+      <div class="text-sm text-slate-400 mb-2">Hero Preview</div>
+      <div class="aspect-[16/9] rounded-xl bg-gradient-to-br from-emerald-600/30 to-cyan-500/20 flex items-center justify-center border border-slate-700">
+        <span class="text-6xl">🐢🏁</span>
+      </div>
+      <p class="text-slate-400 text-sm mt-3">Gameplay trailer: <span class="text-yellow-300">Coming Soon</span></p>
+    </div>
+  </section>
+
+  <!-- GAMEPLAY -->
+  <section id="gameplay" class="border-t border-slate-800 bg-slate-900/40">
+    <div class="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-3 gap-6">
+      <div class="rounded-2xl border border-slate-800 p-6 bg-slate-800/30">
+        <h3 class="font-bold text-lg mb-2">Enter Races</h3>
+        <p class="text-slate-300">Queue your Turtle NFTs and sprint to the finish. Results = stats + randomness.</p>
+      </div>
+      <div class="rounded-2xl border border-slate-800 p-6 bg-slate-800/30">
+        <h3 class="font-bold text-lg mb-2">Gain XP</h3>
+        <p class="text-slate-300">Win or learn—every race yields XP to level up your turtles.</p>
+      </div>
+      <div class="rounded-2xl border border-slate-800 p-6 bg-slate-800/30">
+        <h3 class="font-bold text-lg mb-2">Earn $TURTLE</h3>
+        <p class="text-slate-300">With token launch, winners earn <span class="text-cyan-300">$TURTLE</span>. Entry fees and tournaments ahead.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOKEN UTILITY -->
+  <section id="token" class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="text-2xl font-extrabold mb-6">$TURTLE – Utility</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <ul class="space-y-3 text-slate-300">
+        <li>• Race rewards & tournament prizes</li>
+        <li>• Entry fees for competitive races</li>
+        <li>• Marketplace currency</li>
+        <li>• Breeding (future)</li>
+        <li>• Governance (treasury & features)</li>
+        <li>• Status & progression across the ecosystem</li>
+      </ul>
+      <!-- Simple Pie as SVG -->
+      <div class="rounded-2xl border border-slate-800 p-6 bg-slate-800/30">
+        <div class="text-sm text-slate-400 mb-2">Tokenomics (Updated)</div>
+        <svg viewBox="0 0 42 42" class="w-48 h-48 mx-auto">
+          <circle cx="21" cy="21" r="15.9155" fill="none" stroke="#0ea5e9" stroke-width="6" stroke-dasharray="40 60" transform="rotate(-90 21 21)"/>
+          <circle cx="21" cy="21" r="15.9155" fill="none" stroke="#22c55e" stroke-width="6" stroke-dasharray="20 80" stroke-dashoffset="40" transform="rotate(-90 21 21)"/>
+          <circle cx="21" cy="21" r="15.9155" fill="none" stroke="#eab308" stroke-width="6" stroke-dasharray="10 90" stroke-dashoffset="60" transform="rotate(-90 21 21)"/>
+          <circle cx="21" cy="21" r="15.9155" fill="none" stroke="#38bdf8" stroke-width="6" stroke-dasharray="7 93" stroke-dashoffset="70" transform="rotate(-90 21 21)"/>
+          <circle cx="21" cy="21" r="15.9155" fill="none" stroke="#f97316" stroke-width="6" stroke-dasharray="7 93" stroke-dashoffset="77" transform="rotate(-90 21 21)"/>
+          <circle cx="21" cy="21" r="15.9155" fill="none" stroke="#94a3b8" stroke-width="6" stroke-dasharray="6 94" stroke-dashoffset="84" transform="rotate(-90 21 21)"/>
+          <!-- the smaller 2/1/1/1/3/2 slices are omitted for simplicity; list below covers all -->
+        </svg>
+        <div class="grid sm:grid-cols-2 gap-2 text-sm text-slate-300 mt-4">
+          <div>Game Rewards – 40%</div>
+          <div>Treasury – 20%</div>
+          <div>Marketing – 10%</div>
+          <div>Public Sale – 7%</div>
+          <div>Team – 7%</div>
+          <div>Liquidity Pool – 6%</div>
+          <div>Airdrop – 2%</div>
+          <div>Virgen Holders – 2%</div>
+          <div>$TURTLE Holders – 3%</div>
+          <div>$GAME Holders – 1%</div>
+          <div>$AXR Holders – 1%</div>
+          <div>VADER Holders – 1%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROADMAP (revised order) -->
+  <section id="roadmap" class="border-t border-slate-800 bg-slate-900/40">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+      <h2 class="text-2xl font-extrabold mb-8">Roadmap</h2>
+      <ol class="relative border-l border-slate-700 ml-3 space-y-10">
+        <li class="pl-6">
+          <span class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-emerald-500"></span>
+          <h3 class="font-bold">Phase 1 – $TURTLE Launch</h3>
+          <p class="text-slate-300">Token generation event (TGE), listings, initial liquidity.</p>
+        </li>
+        <li class="pl-6">
+          <span class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-cyan-400"></span>
+          <h3 class="font-bold">Phase 2 – NFT Collection</h3>
+          <p class="text-slate-300">Turtle NFTs mint & marketplace setup. <span class="text-yellow-300">Coming Soon</span></p>
+        </li>
+        <li class="pl-6">
+          <span class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-indigo-400"></span>
+          <h3 class="font-bold">Phase 3 – Race Simulation</h3>
+          <p class="text-slate-300">XP & leaderboard races (no rewards at first).</p>
+        </li>
+        <li class="pl-6">
+          <span class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-emerald-300"></span>
+          <h3 class="font-bold">Phase 4 – Expansion</h3>
+          <p class="text-slate-300">$TURTLE rewards, breeding, tournaments, live ops.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CTA / EMAIL -->
+  <section id="cta" class="max-w-6xl mx-auto px-4 py-16 grid lg:grid-cols-[1.2fr_.8fr] gap-10">
+    <div class="rounded-2xl border border-slate-800 p-8 bg-slate-800/30">
+      <h3 class="text-xl font-extrabold mb-2">Join the Waitlist</h3>
+      <p class="text-slate-300 mb-4">Be first to mint and race. We’ll email only when it matters.</p>
+      <form action="https://formspree.io/f/xyyqdnor" method="POST" class="flex flex-col sm:flex-row gap-3">
+        <input required type="email" name="email" placeholder="your@email" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 focus:border-cyan-400 outline-none"/>
+        <button class="px-5 py-3 rounded-xl bg-emerald-500 text-slate-900 font-bold hover:bg-emerald-400">Notify Me</button>
+      </form>
+      <p class="text-xs text-slate-500 mt-2">Using Formspree demo endpoint. Replace with your own.</p>
+    </div>
+    <div class="rounded-2xl border border-slate-800 p-8 bg-slate-800/30">
+      <h3 class="text-xl font-extrabold mb-2">Press Kit</h3>
+      <ul class="text-slate-300 space-y-2 text-sm">
+        <li>• Logo pack – <span class="text-yellow-300">Coming Soon</span></li>
+        <li>• Litepaper – <span class="text-yellow-300">Coming Soon</span></li>
+        <li>• Trailer – <span class="text-yellow-300">Coming Soon</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="border-t border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 py-16">
+      <h2 class="text-2xl font-extrabold mb-6">FAQ</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="rounded-2xl border border-slate-800 p-6 bg-slate-800/30">
+          <h4 class="font-bold mb-2">What chain?</h4>
+          <p class="text-slate-300">Base network.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-800 p-6 bg-slate-800/30">
+          <h4 class="font-bold mb-2">When mint?</h4>
+          <p class="text-slate-300">Phase 2 – <span class="text-yellow-300">Coming Soon</span>.</p>
+        </div>
+        <div class="rounded-2xl border border-slate-800 p-6 bg-slate-800/30">
+          <h4 class="font-bold mb-2">How to earn?</h4>
+          <p class="text-slate-300">Race, win tournaments, and engage in events for $TURTLE rewards (Phase 4).</p>
+        </div>
+        <div class="rounded-2xl border border-slate-800 p-6 bg-slate-800/30">
+          <h4 class="font-bold mb-2">Open‑source?</h4>
+          <p class="text-slate-300">Core contracts and docs will be published progressively.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 py-10 flex flex-col md:flex-row gap-4 items-center justify-between text-sm text-slate-400">
+      <div>© <span id="year"></span> Turtle Rush. All rights reserved.</div>
+      <div class="flex items-center gap-4">
+        <a href="#" class="hover:text-cyan-300">X/Twitter</a>
+        <a href="#" class="hover:text-cyan-300">Discord</a>
+        <a href="#" class="hover:text-cyan-300">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu
+    const btn=document.getElementById('menuBtn');
+    const mm=document.getElementById('mobileMenu');
+    btn&&btn.addEventListener('click',()=>mm.classList.toggle('hidden'));
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
